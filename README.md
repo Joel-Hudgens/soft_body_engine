@@ -31,9 +31,9 @@ A soft body is a 2D or 3D object that deforms and reacts realistically to extern
 - The simulation handles collisions with the ground and walls to ensure particles stay within the screen boundaries.
 
 ### Calculations
--1. Positions of particles are updated based on their current velocities and the elapsed time.
--2. Velocities of particles are updated considering spring forces and gravity.
--3. Collisions with the ground and screen boundaries are detected and handled, resetting positions and velocities as needed.
+- 1. Positions of particles are updated based on their current velocities and the elapsed time.
+- 2. Velocities of particles are updated considering spring forces and gravity.
+- 3. Collisions with the ground and screen boundaries are detected and handled, resetting positions and velocities as needed.
 
 
 ## How to Interact with the Simulation
@@ -42,6 +42,6 @@ A soft body is a 2D or 3D object that deforms and reacts realistically to extern
 - Press the **Spacebar** to pause and unpause the simulation.
 - Click and drag the mouse to draw lines on the screen that interact with the soft body.
 
-## Have Fun!
-
-Feel free to experiment with the parameters and interact with the soft body circle. Watch how it deforms, reacts to gravity, and bounces off walls. Create intriguing patterns by drawing lines on the screen and observe how the soft body interacts with them.
+## Requirements
+- Python3 or any higher version
+- pip install pygame
